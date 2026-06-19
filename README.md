@@ -169,7 +169,7 @@ Abra seu navegador em: **http://localhost:5173**
 │   API Client (services/api.js)     │
 │   Centraliza todas as requisições  │
 │   URL: http://localhost:5000       │
-└────────────┬────────────────────────┘
+└────────────┬───────────────────────┘
              │
              ↓ (JSON)
              │
@@ -188,19 +188,19 @@ Abra seu navegador em: **http://localhost:5173**
 │  Validação de dados                │
 │  Hash de senhas (Werkzeug)         │
 │  CORS habilitado                   │
-└────────────┬────────────────────────┘
+└────────────┬───────────────────────┘
              │
              ↓ (SQL)
              │
 ┌────────────────────────────────────┐
 │   Banco de Dados (SQLite)          │
-│   sistema_extensao.db             │
+│   sistema_extensao.db              │
 ├────────────────────────────────────┤
 │  Tabelas:                          │
 │  ├─ Cliente (id, nome, email...)   │
 │  ├─ Produto (id, nome, tipo...)    │
 │  ├─ Pedido (id, data, status...)   │
-│  └─ Item_Pedido (id_ped, id_prod) │
+│  └─ Item_Pedido (id_ped, id_prod)  │
 │                                    │
 │  Integridade referencial (FK)      │
 │  Cascata de deleção                │
@@ -287,19 +287,6 @@ Abra seu navegador em: **http://localhost:5173**
 - Status HTTP apropriados (201, 400, 500)
 - Logs no backend para debug
 ```
-
-### 📋 Sugestões para Expandir
-
-- [ ] Dashboard com gráficos de vendas
-- [ ] Login de clientes com JWT
-- [ ] Busca e filtros por cliente/data/status
-- [ ] Upload de imagens de produtos
-- [ ] Integração de pagamento (Stripe/PayPal)
-- [ ] Relatórios em PDF
-- [ ] Notificações por email
-- [ ] Modo dark/light
-- [ ] Responsividade mobile
-- [ ] Cache de dados
 
 ---
 
@@ -737,20 +724,6 @@ SELECT COUNT(*) FROM Cliente;
 
 ---
 
-## 📊 Estatísticas do Projeto
-
-| Item | Valor |
-|------|-------|
-| Linhas Backend | ~300 |
-| Linhas Frontend | ~200 |
-| Endpoints API | 5 |
-| Tabelas Banco | 4 |
-| Componentes React | 4 |
-| Documentação | 10 arquivos |
-| Status | ✅ Pronto |
-
----
-
 ## 📚 Documentação Completa
 
 Para informações mais detalhadas:
@@ -765,53 +738,6 @@ Para informações mais detalhadas:
 | [SETUP_CONEXAO.md](./SETUP_CONEXAO.md) | Setup passo a passo |
 | [INDICE.md](./INDICE.md) | Índice de documentação |
 | [CHECKLIST.md](./CHECKLIST.md) | Verificação completa |
-
----
-
-## 🎯 Próximas Features
-
-### Prioridade Alta
-1. **Dashboard de Vendas**
-   - Gráficos de pedidos por dia/mês
-   - Total de vendas
-   - Produtos mais vendidos
-
-2. **Login de Clientes**
-   - JWT tokens
-   - Persistência de sessão
-   - Proteção de rotas
-
-3. **Busca e Filtros**
-   - Buscar clientes por nome/email
-   - Filtrar pedidos por status/data
-   - Relatórios
-
-### Prioridade Média
-4. **Upload de Imagens**
-   - Imagens de produtos
-   - Avatar de cliente
-   - Integração com CloudStorage
-
-5. **Notificações**
-   - Toast notifications
-   - Email ao cliente
-   - SMS de status
-
-6. **Responsividade**
-   - Mobile friendly
-   - Tablet support
-   - Dark mode
-
-### Prioridade Baixa
-7. **Integração de Pagamento**
-   - Stripe/PayPal
-   - Cartão de crédito
-   - Pix
-
-8. **Relatórios Avançados**
-   - PDF de pedidos
-   - Análise de dados
-   - Exportar CSV
 
 ---
 
@@ -894,34 +820,8 @@ cd front/AtvMetodosAPI && npm run dev
 sqlite3 backend_python/sistema_extensao.db
 ```
 
-### Links Úteis
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [React Documentation](https://react.dev/)
-- [Vite Documentation](https://vitejs.dev/)
-- [SQLite Documentation](https://www.sqlite.org/docs.html)
-
-### Contato
-Para dúvidas, verifique primeiro:
-1. [TROUBLESHOOTING.md](./TROUBLESHOOTING.md)
-2. [FLUXO_DADOS.md](./FLUXO_DADOS.md)
-3. [EXEMPLOS_INTEGRACAO.md](./EXEMPLOS_INTEGRACAO.md)
-
 ---
 
 ## 📄 Licença
 
 Projeto educacional - Licença Livre
-
----
-
-## 👥 Desenvolvido
-
-Sistema de Gestão de Marmitas - v1.0  
-Data: 19/12/2024  
-Status: ✅ Completo e Funcional
-
----
-
-**Próximo passo**: Leia [LEIA-ME-PRIMEIRO.md](./LEIA-ME-PRIMEIRO.md) para começar!
-
-🎉 **Bom uso!**
