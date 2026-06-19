@@ -13,7 +13,6 @@
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Usar](#como-usar)
 - [Troubleshooting](#troubleshooting)
-- [Próximas Features](#próximas-features)
 
 ---
 
