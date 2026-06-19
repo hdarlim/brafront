@@ -292,4 +292,4 @@ const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
 
 ---
 
-**Última atualização**: 19/12/2024
+**Última atualização**: 19/06/2026

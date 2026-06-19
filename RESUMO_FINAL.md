@@ -282,7 +282,7 @@ Para aprender mais → [README.md](./README.md)
 
 ---
 
-**Criado em**: 19/12/2024  
+**Criado em**: 19/06/2026  
 **Status**: ✅ **100% FUNCIONAL**  
 **Tempo de configuração**: ~5 minutos  
 **Tempo de aprendizado**: ~1 hora  

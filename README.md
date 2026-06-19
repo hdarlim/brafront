@@ -348,7 +348,7 @@ Content-Type: application/json
 
 {
   "id_cliente": 1,
-  "data": "2024-12-19",
+  "data": "2026-06-19",
   "status": "pendente",
   "total": 0
 }
@@ -386,7 +386,7 @@ Response (200):
 [
   {
     "id_pedido": 1,
-    "data": "2024-12-19",
+    "data": "2026-06-19",
     "status": "pendente",
     "total": 31.00,
     "nome_cliente": "João Silva",

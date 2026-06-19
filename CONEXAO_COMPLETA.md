@@ -60,7 +60,7 @@ import {
 // Criar pedido
 const pedido = await cadastrarPedido({
   id_cliente: 1,
-  data: '2024-12-19',
+  data: '2026-06-19',
   status: 'pendente',
   total: 0
 });
@@ -255,5 +255,5 @@ Se encontrar problemas:
 
 ---
 
-**Criado em**: 19/12/2024
+**Criado em**: 19/06/2026
 **Status**: ✅ Backend e Frontend Conectados

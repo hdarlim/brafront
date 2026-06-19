@@ -297,6 +297,6 @@ SELECT * FROM Cliente;
 
 ---
 
-**Última atualização**: 19/12/2024  
+**Última atualização**: 19/06/2026  
 **Status**: ✅ Pronto para Produção  
 **Suporte**: Ver [TROUBLESHOOTING.md](./TROUBLESHOOTING.md)

@@ -124,7 +124,7 @@ Cria um novo pedido
 ```json
 {
   "id_cliente": 1,
-  "data": "2024-12-19",
+  "data": "2026-06-19",
   "status": "pendente",
   "total": 0
 }
@@ -340,7 +340,7 @@ Se o backend estiver em outra porta:
 
 ---
 
-**Criado em**: 19/12/2024  
+**Criado em**: 19/06/2026  
 **Status**: ✅ Completo e Testado  
 **Tempo de leitura**: 5 minutos  
 

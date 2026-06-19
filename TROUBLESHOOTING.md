@@ -348,7 +348,7 @@ Use este checklist quando tiver problemas:
 1. Terminal onde rodou `python main.py`
 2. Verá logs de cada requisição:
    ```
-   127.0.0.1 - - [19/Dec/2024 10:00:00] "POST /clientes HTTP/1.1" 201 -
+   127.0.0.1 - - [19/Jun/2026 10:00:00] "POST /clientes HTTP/1.1" 201 -
    ```
 
 ### Via SQLite CLI
@@ -389,5 +389,5 @@ sqlite> .quit
 
 ---
 
-**Última atualização**: 19/12/2024
+**Última atualização**: 19/06/2026
 **Última resolução testada**: Conexão backend-frontend ✓

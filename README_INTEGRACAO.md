@@ -155,7 +155,7 @@ brafront/
 ---
 
 **Status**: ✅ Integração Completa  
-**Data**: 19/12/2024  
+**Data**: 19/06/2026  
 **Backend**: Flask + SQLite + CORS ✓  
 **Frontend**: React + Vite + Axios/Fetch ✓  
 
